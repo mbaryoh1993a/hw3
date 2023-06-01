@@ -4,3 +4,11 @@ class PlacesController < ApplicationController
     @places = ["Mexico City", "Charleston", "Beijing", "Amsterdam"]
       end
 end
+
+def new
+  @place = Place.new
+end
+
+def create
+
+end
