@@ -1,12 +1,11 @@
-<% places = ["Mexico City", "Charleston", "Beijing", "Amsterdam"] %>
+
 
 
 <h1>Places I've Been</h1>
 <p>
-<% for place in places %>
+<% for place in @places %>
 <p>
-
-<%= place %>
+<a href="/companies/<%= place %>"><%= place %></a>
 
 </p>
 <% end %>
